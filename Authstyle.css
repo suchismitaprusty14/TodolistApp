@@ -1,0 +1,31 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form{
+    border: 4px solid #e74c3c;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+}
+.fa-circle-user{
+    margin-bottom: 30px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    color: #e74c3c;
+}
+.login-btn{
+    background-color: #e74c3c;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color:#fff
+}
+.login-btn:hover{
+  background-color: #e74c3c;  
+  color: #fff;
+}
